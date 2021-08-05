@@ -1,9 +1,6 @@
 resource "aws_iam_group" "sysusers" {
-  name = "sysusers"
-  
-
+  name = "sysusers"  
 }
-
 
 resource "aws_iam_user" "bob" {
   name = "bob"
